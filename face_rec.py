@@ -84,7 +84,7 @@ def run():
             break
         if key % 256 == ord('m'):
             print("sending mail.. Please wait ...")
-            mailgun.mail('sid.nan23@gmail.com', 'Student Attendance System', 'Student Attendance Report at '+str(datetime.now().strftime("%Y-%m-%d_%H-%M-%S")), 'student-atten.xlsx')
+            mailgun.mail('email@email.com', 'Student Attendance System', 'Student Attendance Report at '+str(datetime.now().strftime("%Y-%m-%d_%H-%M-%S")), 'student-atten.xlsx')
             print("mail sent...")
         fps.update()
 
