@@ -7,8 +7,8 @@ from email.mime.text import MIMEText
 from email import encoders
 import os
 
-gmail_user = "raspberrycar2017@gmail.com"
-gmail_pwd = "hfmrwbwuhxdmxmwa"
+gmail_user = "@gmail.com"
+gmail_pwd = ""
 
 def mail(to, subject, text, attach):
     msg = MIMEMultipart()
